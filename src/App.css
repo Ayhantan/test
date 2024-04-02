@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: black;
+  color: white; /* Opsiyonel: Metin rengini beyaz yapabilirsiniz. */
+}
+
+h1, h2, h3, p {
+  color: white; /* Metinleri beyaz yapma */
+}
+
+.button {
+  background-color: white; /* Düğmelerin arka planını beyaz yapma */
+  color: black; /* Düğme metin rengini siyah yapma */
+}
+
+.cloud-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('C:\Users\Tan\Desktop\WebPage\reactapp\my-app\src\component\image.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1; /* Diğer içeriklerin üzerinde olması için z-index değerini düşük yapın */
+  opacity: 0.5; /* İstenirse bulutun opaklığını ayarlayabilirsiniz */
+}
+
